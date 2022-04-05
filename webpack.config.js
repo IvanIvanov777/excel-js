@@ -46,7 +46,9 @@ module.exports = {
   devtool: isDev ? 'source-map' : false,
   devServer: {
     port: 3000,
-    hot: isDev
+    hot: isDev,
+    open: true,
+    watchFiles: '.'
   },
   plugins: [
     new CleanWebpackPlugin(),
