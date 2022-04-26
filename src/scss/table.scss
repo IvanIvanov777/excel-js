@@ -64,7 +64,7 @@
     outline: 0;
 
 
-    & .selected {
+    &.selected {
       border: 0;
       outline: 2px solid $primary-color;
       z-index: 2;
